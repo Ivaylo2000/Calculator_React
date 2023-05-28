@@ -1,0 +1,43 @@
+:root {
+  --black: #333;
+  --white: #ffffff;
+  --orange: #f7c08a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: var(--black);
+}
+
+.display {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 30px;
+  background-color: var(--black);
+  color: white;
+  padding-right: 40px;
+}
+
+button {
+  font-size: 20px;
+  cursor: pointer;
+}

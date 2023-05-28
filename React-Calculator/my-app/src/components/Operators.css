@@ -1,0 +1,27 @@
+:root {
+  --black: #333;
+  --white: #ffffff;
+  --orange: #f7c08a;
+}
+
+.operators {
+  display: flex;
+  margin-bottom: 10px;
+  background-color: var(--orange);
+  width: 100%;
+  justify-content: space-between;
+  height: 40px;
+}
+.operators button {
+  width: 70px;
+  height: 40px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: var(--orange);
+  color: var(--black);
+  font-weight: bold;
+}
+
+.operators button:hover {
+  background-color: #d8a672;
+}
